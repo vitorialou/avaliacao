@@ -1,13 +1,39 @@
-body{background:red}
+body{
+background:red(175, 81, 194);
+}
+h1{
+font-size:70px;
+color:  rgb(253, 0, 241)
+text-aling: center;
+}
+p{
+    font-size:30px;
+    color: rgb(253, 0, 241)
+    text-aling: justify
+}
 img{
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    margin-left: 15px;
+}
 
-width: 60%;
-margin: left 50px;
-
-
-
-
+.cabecalho{
+    background-color: rgb(25, 189, 211);
+    display: flex;
+}
+.logocabecalho{
+    width: 100px;
+}
+.list_cabecalho{ 
+   display: flex;
+   margin-left: 500px;
 
 }
-p{font-size: 30px;}.
-h1{font-size: 40px;}
+.item_list_cabecalho{
+  color: #b1d31d;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 5px;
+}
